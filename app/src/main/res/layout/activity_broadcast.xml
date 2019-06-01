@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbar_style"
+        app:title="@string/s_title_toolbar_broadcastmsg" />
+
+    <EditText
+        android:id="@+id/edit_broadcastmsg"
+        style="@style/style_margin_for_multiple_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/s_hint_yourmsg"
+        android:inputType="textMultiLine"
+        android:textSize="@dimen/d_text_size_medium" />
+    <!--Broadcast a message-->
+    <Button
+        android:id="@+id/send_braodcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_button_startbroadcastmessage"
+        style="@style/style_for_default_button_and_text_size_no_theme"/>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

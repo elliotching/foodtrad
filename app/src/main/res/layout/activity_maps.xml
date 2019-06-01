@@ -1,0 +1,41 @@
+<!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:map="http://schemas.android.com/apk/res-auto"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:id="@+id/map"--><!--android:name="com.google.android.gms.maps.SupportMapFragment"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--tools:context="fcsit.makan_place.MapsActivity" />-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbar_style"
+        app:title="@string/s_title_toolbar_activity_maps" />
+
+    <Button
+        android:id="@+id/button_save_location"
+        style="@style/style_for_default_button_and_text_size_no_theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_button_save_location" />
+
+    <CheckBox
+        android:id="@+id/checkbox_currentlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/s_checkbox_autosetmycurrentlocation"
+        android:textSize="@dimen/d_text_size_small" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!--<com.google.android.gms.maps.SupportMapFragment-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/map"/>-->
+
+</LinearLayout>

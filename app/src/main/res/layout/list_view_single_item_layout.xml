@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/d_margin_padding_12">
+
+    <ImageView
+        android:id="@+id/imageview_adapter_list_view"
+        android:src="@drawable/logo_12_256p_r"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/d_margin_padding_12">
+
+        <TextView
+            android:id="@+id/textview_adpt_food_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/d_text_size_medium_large" />
+        <TextView
+            android:id="@+id/textview_adpt_food_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/d_text_size_small" />
+        <TextView
+            android:id="@+id/textview_adpt_seller_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/d_text_size_small" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d_margin_padding_12"/>
+        <TextView
+            android:id="@+id/textview_adpt_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/d_text_size_small" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d_margin_padding_12"/>
+        <TextView
+            android:id="@+id/textview_adpt_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/d_text_size_small" />
+        <TextView
+            android:id="@+id/textview_adpt_food_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/d_text_size_small" />
+        <TextView
+            android:id="@+id/textview_adpt_food_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/d_text_size_small" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbar_style"
+        app:title="@string/fr_app_name" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/sarawakback">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/d_margin_padding_20">
+
+            <ImageView
+                android:id="@+id/imageview_activitymain"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo_12_256p_r" />
+
+            <LinearLayout
+                android:id="@+id/layout_seller_update_location"
+                android:layout_marginTop="@dimen/d_margin_padding_20"
+                android:layout_marginLeft="@dimen/d_margin_padding_20"
+                android:layout_marginRight="@dimen/d_margin_padding_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- BUTTON Seller UPADTE LOCATION-->
+                <Button
+                    android:id="@+id/button_updatelocation"
+                    style="@style/style_for_coloured_button_and_text_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s_button_updatelocation" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_quick"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/s_radiobutton_main_quicksavelocation"
+                        android:textSize="@dimen/d_text_size_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio_precise"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/s_radiobutton_main_chooselocationinmap"
+                        android:textSize="@dimen/d_text_size_small" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <!--SELLER BUTTON WIPE LOCATION -->
+            <Button
+                android:id="@+id/button_wipeloc"
+                style="@style/style_default_button_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/s_button_removemylocation"
+                android:textSize="@dimen/d_text_size_small" />
+            <!-- Seller -->
+            <TextView
+                android:id="@+id/text_showlocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="@dimen/d_text_size_small" />
+
+            <!-- Seller -->
+            <Button
+                android:id="@+id/button_addfood"
+                style="@style/style_default_button_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/s_button_addfood"
+                android:textSize="@dimen/d_text_size_small" />
+
+            <!-- User -->
+            <Button
+                android:id="@+id/button_sharefooduser"
+                style="@style/style_coloured_button_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/s_button_sharefood"
+                android:textSize="@dimen/d_text_size_small" />
+
+
+            <!--&lt;!&ndash; Seller &ndash;&gt;-->
+            <!--<Button-->
+            <!--android:id="@+id/button_sharefoodseller"-->
+            <!--style="@style/style_default_button_margin"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/s_button_sharefood"-->
+            <!--android:textSize="@dimen/d_text_size_small" />-->
+
+            <!-- Seller -->
+            <Button
+                android:id="@+id/button_viewmyfoodmenu"
+                style="@style/style_default_button_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/s_button_viewmymenu"
+                android:textSize="@dimen/d_text_size_small" />
+
+            <!-- Seller & Users-->
+            <Button
+                android:id="@+id/button_viewfoodlist"
+                style="@style/style_default_button_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/s_button_viewfoodlist"
+                android:textSize="@dimen/d_text_size_small" />
+
+            <!--Seller-->
+            <Button
+                android:id="@+id/button_broadcast"
+                style="@style/style_default_button_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/s_button_broadcast"
+                android:textSize="@dimen/d_text_size_small" />
+
+
+            <ImageView
+                android:id="@+id/imageviewbottom_activitymain"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/sarawak" />
+
+
+            <ImageView
+                android:id="@+id/imagesarawakyes_activitymain"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/sarawakyes" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

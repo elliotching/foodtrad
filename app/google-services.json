@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "832056997021",
+    "firebase_url": "https://ching-af01f.firebaseio.com",
+    "project_id": "ching-af01f",
+    "storage_bucket": "ching-af01f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832056997021:android:72b908cbf893d3ea",
+        "android_client_info": {
+          "package_name": "kali.foodtrad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832056997021-5o6or2qi3bc82s9f9plp3tpgloems52h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCzgbe5Sdj8pBLrEcTKnCJPNZrw-_b2lA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

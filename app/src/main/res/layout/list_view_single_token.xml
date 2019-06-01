@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/text_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/d_text_size_medium"/>
+    <TextView
+        android:id="@+id/text_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/c_t_yellow_for_fcm_status"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="@dimen/d_text_size_medium"/>
+</LinearLayout>

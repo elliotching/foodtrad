@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--STRING-->
+    <string name="fr_app_name">FoodTrad</string>
+    <string name="icon_name">FoodTrad</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="saved_team">Saved Team</string>
+    <string name="s_checktable">check</string>
+    <string name="s_todoitem">TodoItem</string>
+    <string name="s_student">Student</string>
+
+    <!--Nav. Drawer Items' Names-->
+    <string name="s_item1">Main</string>
+    <string name="s_item2_map">Map</string>
+    <string name="s_item3_rec_view">Food Listing</string>
+    <string name="s_item4_dev">For Developer</string>
+    <string name="s_item5_loadimage">Developer: Firebase Cloud Messanging (Broadcast)</string>
+    <string name="s_item6_setting">设置</string>
+    <!--<string name="s_menu_search_food">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+
+
+    <!--Hints for EditText-->
+    <string name="s_hint_login_edit_text_username">사용자 이름</string>
+    <string name="s_hint_login_edit_text_email">이메일</string>
+    <string name="s_hint_login_edit_text_password">암호</string>
+    <string name="s_hint_login_edit_text_confirm_password">비밀번호 확인</string>
+    <string name="s_hint_activation_code">123456</string>
+    <string name="s_hint_changepassword_old">현재 비밀번호</string>
+    <string name="s_hint_changepassword_new">새 비밀번호</string>
+    <string name="s_hint_changepassword_new_confirm">새 암호를 확인합니다</string>
+    <string name="s_hint_commentdescription">여기에 의견이나 설명을 남겨주세요.&#8230;</string>
+    <string name="s_hint_shopname">상점 이름 (예 John\'s Burger)</string>
+    <string name="s_hint_menufooddescription">이 음식에 대한 추가 설명. (선택 과목)</string>
+    <string name="s_hint_yourmsg">여기에 방송 메시지를 입력하십시오.&#x2026;</string>
+    <string name="s_hint_searchfoodname">음식 이름 검색</string>
+    <!--<string name="s_hint_yourmsg">Confirm new password</string>-->
+    <!--<string name="s_hint_yourmsg">Confirm new password</string>-->
+    <!--<string name="s_hint_yourmsg">Confirm new password</string>-->
+    <!--<string name="s_hint_yourmsg">Confirm new password</string>-->
+    <!--<string name="s_hint_yourmsg">Confirm new password</string>-->
+
+
+    <!--Label(TextView)-->
+    <string name="s_label_form_food_name_activity_add_food">음식 이름 :</string>
+    <string name="s_label_form_food_price_activity_add_food">가격:</string>
+    <string name="s_label_form_food_type_activity_add_food">식품 유형:</string>
+    <string name="s_label_form_food_location_activity_add_food">위치:</string>
+    <string name="s_label_setting_theme_activity_setting">테마:</string>
+    <string name="s_label_dialog_input_activation_code">아래에 활성화 코드를 입력하십시오:</string>
+    <string name="s_label_form_food_image">음식 이미지:</string>
+    <string name="s_label_emailsignupwarning">경고 : 기존 이메일을 사용하십시오. 활성화 코드가 이메일로 전송됩니다</string>
+    <string name="s_label_shopname">상점 이름 / 회사 이름:</string>
+    <!--<string name="s_label_shopname">Shop name / Company name: </string>-->
+    <!--<string name="s_label_shopname">Shop name / Company name: </string>-->
+    <!--<string name="s_label_form_food_image">Food Image:</string>-->
+
+
+    <!--ListView Info Label-->
+    <string name="s_listview_shopname">가게 이름:</string>
+    <string name="s_listview_price">RM $money$</string>
+    <string name="s_listview_username">게시자 :$user$</string>
+    <string name="s_listview_comment">논평:</string>
+    <string name="s_listview_distance">Distance &#x2248; $distance_meter$ meter away</string>
+    <string name="s_listview_fooddistance_away">대략 거리: $distance_meter$</string>
+    <string name="s_listview_fooddistasfjkbjkay">대략 거리: $distance_meter$</string>
+    <string name="s_label_locationunknown">위치를 찾을 수 없음</string>
+    <string name="s_listview_calc_distance">거리 계산&#x2026;</string>
+    <!--<string name="s_listview_shop">Shop name:</string>-->
+
+
+    <!--Button + Title(Toolbar)-->
+    <string name="s_title_toolbar_activity_maps">FoodTrad Map</string>
+    <string name="s_title_toolbar_activity_add_food">Add Food</string>
+    <string name="s_title_toolbar_activity_food_detail">Food Detail</string>
+    <string name="s_title_toolbar_activity_log_in">Log In</string>
+    <string name="s_title_toolbar_share_food">Share Food</string>
+    <string name="s_title_toolbar_choose_image">Choose Image</string>
+    <string name="s_title_toolbar_activity_setting">Settings</string>
+    <string name="s_title_toolbar_activity_sign_up">Sign up</string>
+    <string name="s_title_activity_sign_up">Sign up: </string>
+    <string name="s_title_toolbar_change_password">Change Password</string>
+    <string name="s_title_toolbar_broadcastmsg">Broadcast Message</string>
+    <string name="s_title_toolbar_activity_search">Search Food</string>
+    <!--<string name="s_title_toolbar_change_password">Change Password</string>-->
+    <!--<string name="s_title_toolbar_change_password">Change Password</string>-->
+
+
+    <string name="s_button_login_activity_log_in">Log in</string>
+    <string name="s_button_locate_me_activity_food_detail">Locate me</string>
+    <string name="s_light_theme_activity_setting">Light Theme</string>
+    <string name="s_dark_theme_activity_setting">Dark Theme</string>
+    <string name="s_button_submit">Submit</string>
+    <string name="s_button_sign_up_activity_log_in">Sign up</string>
+    <string name="s_button_no_location_choosen">No location chosen.</string>
+    <string name="s_button_no_image_choosen">No image chosen.</string>
+    <string name="s_button_capture">Capture image</string>
+    <string name="s_button_change_password">Change password</string>
+    <string name="s_button_pick_image">Choose from gallery</string>
+    <string name="s_button_save_location">Save Location</string>
+    <string name="s_button_save_confirm_image">Confirm Image</string>
+    <string name="s_button_location">My location</string>
+    <string name="s_button_sharedbycustomer">Shared by customers</string>
+    <string name="s_button_postbyseller">Food menu</string>
+    <string name="s_button_addfood">Add food to my menu</string>
+    <string name="s_button_sharefood">Share a food</string>
+    <string name="s_button_viewmymenu">View my food menu</string>
+    <string name="s_button_updatelocation">UPDATE MY LOCATION</string>
+    <string name="s_button_viewfoodlist">View all food list</string>
+    <string name="s_text_gettingyourlocation">Getting your location&#x2026;</string>
+    <string name="s_text_savingyourlocation">Saving your current location</string>
+    <string name="s_button_broadcast">Broadcast message</string>
+    <!--<string name="s_button_postbyseller">Food menu</string>-->
+    <!--<string name="s_button_postbyseller">Food menu</string>-->
+    <!--<string name="s_button_postbyseller">Food menu</string>-->
+
+    <!--CheckBox-->
+    <string name="s_checkbox_im_moving_everyday">I sell my food at different places everyday.</string>
+    <string name="s_checkbox_iwanttoregisterasseller">I want to sign up as a food seller.</string>
+    <string name="s_checkbox_autosetmycurrentlocation">Auto change marker to my own location</string>
+    <!--<string name="s_checkbox_iwanttoregisterasseller">I want to register as a seller.</string>-->
+    <!--<string name="s_checkbox_iwanttoregisterasseller">I want to register as a seller.</string>-->
+    <!--<string name="s_checkbox_iwanttoregisterasseller">I want to register as a seller.</string>-->
+    <!--<string name="s_checkbox_iwanttoregisterasseller">I want to register as a seller.</string>-->
+    <!--<string name="s_checkbox_iwanttoregisterasseller">I want to register as a seller.</string>-->
+
+    <!--WARNING MESSAGE-->
+    <string name="s_dialog_btn_ok">OK</string>
+    <string name="s_dialog_btn_cancel">Cancel</string>
+    <string name="s_dialog_btn_logout">Log out</string>
+    <string name="s_dialog_btn_later">Later</string>
+    <string name="s_dialog_title_fail">Failed</string>
+    <string name="s_dialog_title_result">Result</string>
+    <string name="s_dialog_title_success">Success</string>
+    <string name="s_dialog_title_error">Error</string>
+    <string name="s_dialog_title_nothing_here">Nothing Here</string>
+    <string name="s_dialog_msg_to_be_implement">To be implement soon.</string>
+    <string name="s_dialog_title_warning">Warning</string>
+    <string name="s_dialog_msg_not_logged_in">You have not logged in yet. Please sign up or log in.</string>
+    <string name="s_dialog_msg_kicked_out">Someone else might logged into your account. Please re-log in.</string>
+    <string name="s_dialog_add_food_success">Successfully add food.</string>
+    <string name="s_dialog_msg_sccesspasswordchange">Password has been changed. Please log in using new password.</string>
+    <string name="s_dialog_msg_please_fill_all">Please fill in all fields.</string>
+    <string name="s_dialog_label_activation_check_junk_mail">*Activation code has been mailed into your mailbox: $address$ \nPlease check the SPAM / JUNK mailbox.</string>
+    <string name="s_dialog_msg_mapconnectionfail">Google Map disconnected.</string>
+    <string name="s_dialog_msg_sccesssignup">$username$ has been successfully signed up. Please check your email for activation code. Please check as well your junk or spam mail.</string>
+    <string name="s_dialog_msg_location_not_granted">Location is not allowed. Please enable it in settings. Exiting Google Map&#8230;</string>
+    <string name="s_dialog_title_accountactivation">Account Activation</string>
+    <string name="s_dialog_msg_failedconnect">Failed to connect.</string>
+    <string name="s_dialog_msg_connection_not_found">Connection not found.</string>
+    <string name="s_dialog_msg_yoursellerlocationempty">Your current location for selling food is not set. Please update your current location first.</string>
+    <string name="s_dialog_msg_newupdateavailable">New version of FoodTrad is available.</string>
+    <string name="s_dialog_msg_plsfillall">Please fill in all fields.</string>
+    <string name="s_dialog_msg_selectanimage">You must select an image before you save / confirm.</string>
+    <!--<string name="s_dialog_msg_plsfillall">You must select an image before you save / confirm.</string>-->
+    <!--<string name="s_dialog_msg_plsfillall">You must select an image before you save / confirm.</string>-->
+    <!--<string name="s_dialog_msg_plsfillall">You must select an image before you save / confirm.</string>-->
+    <!--<string name="s_dialog_msg_plsfillall">You must select an image before you save / confirm.</string>-->
+    <!--<string name="s_dialog_msg_plsfillall">You must select an image before you save / confirm.</string>-->
+
+    <!--Progress Dialog MSG-->
+    <string name="s_prgdialog_sending_msg">Sending&#8230;</string>
+    <string name="s_prgdialog_retrieving_all_token">Retrieving all logged in users&#8230;</string>
+    <string name="s_prgdialog_submitting_signup_form">Submitting form&#8230;</string>
+    <string name="s_prgdialog_update_token">Update notification service&#8230;</string>
+    <string name="s_prgdialog_log_in_authenticate">Authenticating&#8230;</string>
+    <string name="s_prgdialog_uploading">Uploading&#8230;</string>
+    <string name="s_prgdialog_submitting_food">Submitting new food&#8230;</string>
+    <string name="s_prgdialog_loading_all_food">Loading all foods&#8230;</string>
+    <string name="s_prgdialog_check_log_in_status">Checking log in status&#8230;</string>
+    <string name="s_prgdialog_submitting_password">Submitting password change&#8230;</string>
+    <string name="s_prgdialog_log_out">Logging out&#8230;</string>
+    <string name="s_prgdialog_getting_location">Getting user\'s location&#8230;</string>
+    <string name="s_prgdialog_checking_version">Checking version&#8230;</string>
+    <string name="s_prgdialog_msg_gettingalluserstoken">Retrieving all users&#8230;</string>
+    <string name="s_prgdialog_searching">Searching your food&#8230;</string>
+    <!--<string name="s_prgdialog_submitting_password">Submitting password change&#8230;</string>-->
+    <!--<string name="s_prgdialog_submitting_password">Submitting password change&#8230;</string>-->
+
+
+
+    <!--Progress Dialog TITLE-->
+    <string name="s_prgdialog_title_noti_service">Notification Services</string>
+    <string name="s_prgdialog_title_upload">Upload</string>
+    <string name="s_prgdialog_title_submit_food">Submit Food</string>
+    <string name="s_prgdialog_title_send_msg">Send Message</string>
+    <string name="s_prgdialog_title_load_user">Load Users</string>
+    <string name="s_prgdialog_title_sign_up">Sign Up</string>
+    <string name="s_prgdialog_title_log_in">Log In</string>
+    <string name="s_prgdialog_title_loading">Loading</string>
+    <string name="s_prgdialog_title_submit_password">Submit Password</string>
+    <string name="s_prgdialog_title_log_out">Log Out</string>
+    <string name="s_prgdialog_title_location">Location</string>
+    <string name="s_prgdialog_title_update">Update</string>
+    <string name="s_prgdialog_title_retrieve">Retrieve</string>
+    <string name="s_prgdialog_title_search">Search</string>
+    <!--<string name="s_prgdialog_"></string>-->
+    <!--<string name="s_prgdialog_"></string>-->
+
+    <!--Notification-->
+    <string name="s_notif_msg_token_log_in_update">Notification services updated. You\'ve logged in as&#160;</string>
+    <string name="s_notif_msg_token_unavailable">Notification services not available in your device.</string>
+    <!-- NEW -->
+    <string name="s_notif_msg_been_logged_out">You have been logged out.</string>
+    <string name="s_notif_msg_token_updated">Notification service has been updated.</string>
+
+    <!--MENU ITEM TITLE-->
+    <string name="s_menu_add_food">Add Food</string>
+    <string name="s_menu_setting">Settings</string>
+    <string name="s_menu_username">Username:&#160;</string>
+    <string name="s_menu_log_out">Log out</string>
+    <string name="s_menu_search_food">Search</string>
+    <!--<string name="s_changelanguage">Log out</string>-->
+    <!--<string name="s_menu_log_out">Log out</string>-->
+
+
+</resources>

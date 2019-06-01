@@ -1,0 +1,437 @@
+List of SharedPreference:
+1."FCM"
+1.1."notification_number"
+1.2.
+
+
+2. "FoodieRoute"
+2.1."FR_deviceUUID" - "empty"
+2.2 "FR_theme" - "Light" / "Dark"
+2.3."FR_first_time_launch" - defaultBoolean:true
+2.4."FR_token" - "empty"
+2.5."FR_username" - "empty"
+2.6."FR_firebase_IID" - "empty"
+2.7."FR_device" - "empty"
+
+
+
+SharedPreferencces:
+READ:
+SharedPreferences pref = context.getSharedPreferences("FoodieRoute", Context.MODE_PRIVATE);
+String deviceUUID = pref.getString("FR_deviceUUID", "empty");
+SAVE:
+SharedPreferences pref = context.getSharedPreferences("FoodieRoute", Context.MODE_PRIVATE);
+pref.edit().putString("FR_deviceUUID", deviceUUID);
+pref.edit().commit();
+
+
+PUT ARGUMENTS VS GET ARGUMENTS:
+!! FRAGMENTS !!
+/***********************************************
+ * HOW TO PUT ARGUMENTS::
+ * Bundle mBundleArguments = new Bundle();
+ * mBundleArguments.put*Boolean(KEY, VALUE);
+ * fragment.setArguments(mBundleArguments);
+ * *********************************************/
+/*********************************************************
+ * HOW TO GET ARGUMENTS::
+ * RESULT = mFragment.getArguments().get*Boolean( KEY );
+ *   or        <this>.getArguments().get*Boolean( KEY );
+ *********************************************************/
+
+
+!! ACTIVITY !!
+Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
+Bundle b = new Bundle();
+b.putInt("key", 1); //Your id
+intent.putExtras(b); //Put your id to your next Intent
+startActivity(intent);
+finish();
+******************************
+Bundle b = getIntent().getExtras();
+b.getInt("key");
+*****************************************
+Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
+intent.putExtra("key", 1); //Your id
+startActivity(intent);
+finish();
+******************************
+Intent i = getIntent();
+i.get*Boolean/Int*Extra("key", default);
+
+
+
+
+
+Button must put style:
+Coloured or non-coloured
+@style/style_for_coloured_button_and_text_size
+
+<Button
+    android:id="@+id/button_pick_content"
+    style="@style/style_for_default_button_and_text_size_no_theme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/s_button_pick_image" />
+
+
+For testing only:
+1. Username use test, for splash screen and FirebaseInstanceIDServices
+2.
+
+
+AppCompatActivity <<<--- (AppCompatActivity) Context    (OK)
+AppCompatActivity <<<--- Context                        (NOT OK)
+
+Context <<<--- AppCompatActivity                        (OK)
+
+
+
+// example usage of WebView calibrate map
+// JAVA
+        WebView wView = new WebView(context);
+        RelativeLayout rl = (RelativeLayout) view.findViewById(R.id.rl);
+        DisplayMetrics metrics = context.getResources().getDisplayMetrics();
+        RelativeLayout.LayoutParams layoutParams= new RelativeLayout.LayoutParams(
+                (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 235, metrics),
+                (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 235, metrics));
+        layoutParams.addRule(RelativeLayout.CENTER_IN_PARENT, 1);
+        rl.addView(wView, layoutParams);
+        wView.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
+        wView.getSettings().setLoadWithOverviewMode(false);
+        wView.getSettings().setUseWideViewPort(true);
+        wView.loadUrl("file:///android_asset/cal.gif");
+// XML
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="235dp"
+            android:layout_height="235dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+        </RelativeLayout>
+
+
+
+
+
+IMAGE LOADER
+IMAGE LOADER
+IMAGE LOADER
+IMAGE LOADER
+IMAGE LOADER
+
+Ion.with(context)
+.load(imgURL) // String
+.withBitmap()
+.placeholder(R.mipmap.loading)
+.intoImageView(holder.imageView);
+
+
+
+
+
+set IMAGE VIEW from PATH
+set IMAGE VIEW from PATH
+set IMAGE VIEW from PATH
+set IMAGE VIEW from PATH
+set IMAGE VIEW from PATH
+
+File imgFile = new  File("/sdcard/Images/test_image.jpg");
+if(imgFile.exists()){
+    Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
+    ImageView myImage = (ImageView) findViewById(R.id.imageviewTest);
+    myImage.setImageBitmap(myBitmap);
+}
+
+
+
+
+Toolbar
+Toolbar
+Toolbar
+Toolbar
+Toolbar
+Toolbar
+Toolbar
+
+No need theme liao use toolbar style as:
+
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    style="@style/toolbar_style"
+    app:title="@string/s_title_toolbar_????????" />
+
+
+
+
+CustomHTTP
+CustomHTTP
+CustomHTTP
+CustomHTTP
+CustomHTTP
+CustomHTTP
+CustomHTTP
+private class HTTP_POST implements InterfaceCustomHTTP{
+    HTTP_POST(Context c, String[][] d, String url){
+        CustomHTTP cc = new CustomHTTP(c, d, url);
+        cc.ui = this;
+        cc.execute();
+    }
+    @Override
+    public void onCompleted(String result) {
+
+    }
+}
+
+
+FCM_sent_success:
+{"multicast_id":5988409822444339721,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1493118490644618%69d8bb63f9fd7ecd"}]}
+
+FCM_sent_failed:
+{"multicast_id":5577579200943744439,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]}
+
+
+
+
+Custom Dialog Content Layout XML
+Custom Dialog Content Layout XML
+Custom Dialog Content Layout XML
+Custom Dialog Content Layout XML
+Custom Dialog Content Layout XML
+Custom Dialog Content Layout XML
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/d_padding_msg_border_alert_dialog">
+
+        <.../>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+CLEAR ACTIVITY TASK
+CLEAR ACTIVITY TASK
+CLEAR ACTIVITY TASK
+CLEAR ACTIVITY TASK
+CLEAR ACTIVITY TASK
+CLEAR ACTIVITY TASK
+
+intent.setFlags(
+Intent.FLAG_ACTIVITY_NEW_TASK | IntentCompat.FLAG_ACTIVITY_CLEAR_TASK);
+Intent.FLAG_ACTIVITY_CLEAR_TOP
+
+
+
+
+
+Activity Map Check Location Permission
+Activity Map
+Activity Map
+Activity Map
+
+private void checkLocationPermission() {
+    if (ContextCompat.checkSelfPermission(context, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+
+        ActivityCompat.requestPermissions(activity,
+                new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},
+                FR_PERMISSIONS_REQUEST_CODE_LOCATION);
+        // Should we show an explanation?
+        if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                android.Manifest.permission.ACCESS_FINE_LOCATION)) {
+
+            // Show an explanation to the user *asynchronously* -- don't block
+            // this thread waiting for the user's response! After the user
+            // sees the explanation, try again to request the permission.
+            new Dialog_AlertNotice(this, "Location Permission Needed",
+                    "This app needs the Location permission, please accept to use location functionality")
+                    .setPositiveKey("OK", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    //Prompt the user once explanation has been shown
+                    ActivityCompat.requestPermissions(ActivityMaps.this,
+                            new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},
+                            FR_PERMISSIONS_REQUEST_CODE_LOCATION );
+                }
+            }).show();
+
+        } else {
+            // No explanation needed, we can request the permission.
+
+        }
+    }
+}
+
+
+
+EDIT TEXT
+EDIT TEXT
+EDIT TEXT
+EDIT TEXT
+<EditText
+    android:id="@+id/edit_text_username"
+    style="@style/style_margin_for_edit_text_multiple"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/s_hint_login_edit_text_username"
+    android:imeOptions="actionNext"
+    android:inputType="text"
+    android:textSize="@dimen/d_text_size_medium" />
+
+
+BUTTON
+BUTTON
+BUTTON
+BUTTON
+<Button
+    android:id="@+id/..."
+    style="@style/style_...buton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/s_..." />
+
+
+
+
+URI to BITMAP
+
+InputStream image_stream = getContentResolver().openInputStream(IMAGE_URI);
+Bitmap bitmap= BitmapFactory.decodeStream(image_stream );
+
+
+BITMAP to URI
+use getImageUri >>
+static Uri getImageUri(Context inContext, Bitmap inImage) {
+        ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+        inImage.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
+        String path = MediaStore.Images.Media.insertImage(inContext.getContentResolver(), inImage, "Title", null);
+        return Uri.parse(path);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+NOT IMPORTANT
+/*
+*
+    private class MyEntity implements HttpEntity {
+
+        // Size of the byte-array buffer used in I/O streams.
+        private final int BUFFER_SIZE = 4096;
+        private String json;
+
+        public MyEntity(String jsonstring) {
+            json = jsonstring;
+        }
+
+        @Override
+        public boolean isRepeatable() {
+            return false;
+        }
+
+        @Override
+        public boolean isChunked() {
+            return false;
+        }
+
+        @Override
+        public boolean isStreaming() {
+            return false;
+        }
+
+        @Override
+        public long getContentLength() {
+            return -1;
+        }
+
+        @Override
+        public Header getContentEncoding() {
+            return null;
+        }
+
+        @Override
+        public Header getContentType() {
+            return null;
+        }
+
+        @Override
+        public void consumeContent() throws IOException, UnsupportedOperationException {
+        }
+
+        @Override
+        public InputStream getContent() throws IOException, UnsupportedOperationException {
+            return null;
+        }
+
+        @Override
+        public void writeTo(final OutputStream out) throws IOException {
+            if (out == null) {
+                throw new IllegalStateException("Output stream cannot be null.");
+            }
+
+            // Record the time when uploading started.
+            long now = System.currentTimeMillis();
+
+            OutputStream os = out;
+
+            int[] chararray = new int[json.length()];
+            for (int count = 0; count < json.length(); count++)
+                chararray[count] = json.charAt(count);
+
+            ByteArrayOutputStream bos = new ByteArrayOutputStream();
+            for (int count = 0; count < json.length(); count++)
+                bos.write(chararray[count]);
+            bos.close();
+            byte[] arr = bos.toByteArray();
+
+            os.write(arr); // or: bos.writeTo(os);
+            os.close();
+
+            System.out.println("bos.toString() = " + new String(bos.toByteArray()));
+            os.flush();
+            AsyncHttpClient.silentCloseOutputStream(os);
+        }
+    }
+
+* */

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kali.foodtrad">
+
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_11"
+        android:label="@string/fr_app_name"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:theme="@style/FR_AppThemeLight">
+
+
+
+        <!--
+            The API key for Google Maps-based APIs is defined as a string resource.
+            (See the file "res/values/google_maps_api.xml").
+            Note that the API key is linked to the encryption key used to sign the APK.
+            You need a different API key for each encryption key, including the release key that is used to
+            sign the APK for publishing.
+            You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <!--android:clearTaskOnLaunch="true"-->
+        <!--android:launchMode="singleTask"-->
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--android:screenOrientation="portrait"-->
+        <activity
+            android:name=".Foodie_main"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".ActivityAddFood"/>
+
+        <activity android:name=".ActivityRequestData"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".ActivityFirebaseResult"/>
+        <!--<activity android:name=".ActivityPostHTTPDataFirebaseTest" />-->
+
+        <activity android:name=".ActivityFoodListingListViewElliot"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".ActivityFoodDetail"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".ActivitySetting"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".ActivitySignUp"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ActivityMaps"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ActivityNotification"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ActivityPickImage"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ActivityCrop"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ActivityLogIn"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ActivityChangePassword"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ActivityMain"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ActivityFoodMenu" />
+        <activity android:name=".ActivityMsgBroadcast" />
+        <activity android:name=".ActivitySearch" />
+
+        <service
+            android:name=".ServiceAndroidFirebaseMessagingElliot">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".ServiceAndroidFirebaseInstanceIDElliot">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

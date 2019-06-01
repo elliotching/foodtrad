@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--STRING-->
+    <string name="fr_app_name">FoodTrad</string>
+    <string name="icon_name">FoodTrad</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="saved_team">Saved Team</string>
+    <string name="s_checktable">check</string>
+    <string name="s_todoitem">TodoItem</string>
+    <string name="s_student">Student</string>
+
+    <!--Nav. Drawer Items' Names-->
+    <string name="s_item1">主页</string>
+    <string name="s_item2_map">地图</string>
+    <string name="s_item3_rec_view">食物列表</string>
+    <string name="s_item4_dev">给 程序员</string>
+    <string name="s_item5_loadimage">开发人员: Firebase Cloud Messanging (Broadcast)</string>
+    <string name="s_item6_setting">设置 Settings</string>
+    <!--<string name="s_menu_search_food">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+    <!--<string name="s_item6_setting">Settings</string>-->
+
+
+    <!--Hints for EditText-->
+    <string name="s_hint_login_edit_text_username">用户名</string>
+    <string name="s_hint_login_edit_text_email">电子邮件</string>
+    <string name="s_hint_login_edit_text_password">密码</string>
+    <string name="s_hint_login_edit_text_confirm_password">确定密码</string>
+    <string name="s_hint_activation_code">123456</string>
+    <string name="s_hint_changepassword_old">目前密码</string>
+    <string name="s_hint_changepassword_new">新密码</string>
+    <string name="s_hint_changepassword_new_confirm">确定新密码</string>
+    <string name="s_hint_commentdescription">在此评论或注释&#8230;</string>
+    <string name="s_hint_shopname">商店名称 (eg. John\'s Burger)</string>
+    <string name="s_hint_menufooddescription">更多注释 (可选)</string>
+    <string name="s_hint_yourmsg">在此输入您的广播信息&#x2026;</string>
+    <string name="s_hint_searchfoodname">搜索食物名称</string>
+    <!--<string name="s_hint_yourmsg">Confirm new password</string>-->
+    <!--<string name="s_hint_yourmsg">Confirm new password</string>-->
+    <!--<string name="s_hint_yourmsg">Confirm new password</string>-->
+    <!--<string name="s_hint_yourmsg">Confirm new password</string>-->
+    <!--<string name="s_hint_yourmsg">Confirm new password</string>-->
+
+
+    <!--Label(TextView)-->
+    <string name="s_label_form_food_name_activity_add_food">食物名称:</string>
+    <string name="s_label_form_food_price_activity_add_food">价额:</string>
+    <string name="s_label_form_food_type_activity_add_food">食物种类:</string>
+    <string name="s_label_form_food_location_activity_add_food">位置:</string>
+    <string name="s_label_setting_theme_activity_setting">主题:</string>
+    <string name="s_label_dialog_input_activation_code">请输入激活码:</string>
+    <string name="s_label_form_food_image">食物图片:</string>
+    <string name="s_label_emailsignupwarning">警告: 请使用真实电邮。激活码将发送到您的邮箱</string>
+    <string name="s_label_shopname">商店名称 / 公司名称:</string>
+    <!--<string name="s_label_shopname">Shop name / Company name: </string>-->
+    <!--<string name="s_label_shopname">Shop name / Company name: </string>-->
+    <!--<string name="s_label_form_food_image">Food Image:</string>-->
+
+
+    <!--ListView Info Label-->
+    <string name="s_listview_shopname">商店名称:</string>
+    <string name="s_listview_price">RM $money$</string>
+    <string name="s_listview_username">由 $user$ 分享</string>
+    <string name="s_listview_comment">评论:</string>
+    <string name="s_listview_distance">距离 &#x2248; $distance_meter$</string>
+    <string name="s_listview_fooddistance_away">大约距离 $distance_meter$</string>
+    <string name="s_listview_fooddistasfjkbjkay">Approximately $distance_meter$ meter away.</string>
+    <string name="s_label_locationunknown">找不到位置</string>
+    <string name="s_listview_calc_distance">计算距离中&#x2026;</string>
+    <!--<string name="s_listview_shop">Shop name:</string>-->
+
+
+    <!--Button + Title(Toolbar)-->
+    <string name="s_title_toolbar_activity_maps">FoodTrad 地图</string>
+    <string name="s_title_toolbar_activity_add_food">增加食物</string>
+    <string name="s_title_toolbar_activity_food_detail">食物详情</string>
+    <string name="s_title_toolbar_activity_log_in">登入</string>
+    <string name="s_title_toolbar_share_food">搜索食物</string>
+    <string name="s_title_toolbar_choose_image">选择图片</string>
+    <string name="s_title_toolbar_activity_setting">设置</string>
+    <string name="s_title_toolbar_activity_sign_up">注册</string>
+    <string name="s_title_activity_sign_up">注册: </string>
+    <string name="s_title_toolbar_change_password">更换密码</string>
+    <string name="s_title_toolbar_broadcastmsg">广播信息</string>
+    <string name="s_title_toolbar_activity_search">搜索食物</string>
+    <!--<string name="s_title_toolbar_change_password">Change Password</string>-->
+    <!--<string name="s_title_toolbar_change_password">Change Password</string>-->
+
+
+    <string name="s_button_login_activity_log_in">登入</string>
+    <string name="s_button_locate_me_activity_food_detail">定位我</string>
+    <string name="s_light_theme_activity_setting">亮主题</string>
+    <string name="s_dark_theme_activity_setting">暗主题</string>
+    <string name="s_button_submit">提交</string>
+    <string name="s_button_sign_up_activity_log_in">注册</string>
+    <string name="s_button_no_location_choosen">未选择位置。</string>
+    <string name="s_button_no_image_choosen">未选择图片</string>
+    <string name="s_button_capture">拍摄图片</string>
+    <string name="s_button_change_password">更换密码</string>
+    <string name="s_button_pick_image">相册中选择</string>
+    <string name="s_button_save_location">储存位置</string>
+    <string name="s_button_save_confirm_image">确定图片</string>
+    <string name="s_button_location">我的位置</string>
+    <string name="s_button_sharedbycustomer">由顾客分享</string>
+    <string name="s_button_postbyseller">食物菜单</string>
+    <string name="s_button_addfood">添加食物到我的菜单</string>
+    <string name="s_button_sharefood">分享食物</string>
+    <string name="s_button_viewmymenu">查看我的食物菜单</string>
+    <string name="s_button_updatelocation">更新我的位置</string>
+    <string name="s_button_viewfoodlist">查看所有食物列表</string>
+    <string name="s_text_gettingyourlocation">正在索取您的位置&#x2026;</string>
+    <string name="s_text_savingyourlocation">正在储存您的目前位置</string>
+    <string name="s_button_broadcast">广播信息</string>
+    <!--<string name="s_button_postbyseller">Food menu</string>-->
+    <!--<string name="s_button_postbyseller">Food menu</string>-->
+    <!--<string name="s_button_postbyseller">Food menu</string>-->
+
+    <!--CheckBox-->
+    <string name="s_checkbox_im_moving_everyday">我每天在不同位置售卖我的食物</string>
+    <string name="s_checkbox_iwanttoregisterasseller">我要注册为食物商家</string>
+    <string name="s_checkbox_autosetmycurrentlocation">自动更换标记到我的目前位置</string>
+    <!--<string name="s_checkbox_iwanttoregisterasseller">I want to register as a seller.</string>-->
+    <!--<string name="s_checkbox_iwanttoregisterasseller">I want to register as a seller.</string>-->
+    <!--<string name="s_checkbox_iwanttoregisterasseller">I want to register as a seller.</string>-->
+    <!--<string name="s_checkbox_iwanttoregisterasseller">I want to register as a seller.</string>-->
+    <!--<string name="s_checkbox_iwanttoregisterasseller">I want to register as a seller.</string>-->
+
+    <!--WARNING MESSAGE-->
+    <string name="s_dialog_btn_ok">确定</string>
+    <string name="s_dialog_btn_cancel">取消</string>
+    <string name="s_dialog_btn_logout">登出</string>
+    <string name="s_dialog_btn_later">稍后</string>
+    <string name="s_dialog_title_fail">失败</string>
+    <string name="s_dialog_title_result">结果</string>
+    <string name="s_dialog_title_success">成功</string>
+    <string name="s_dialog_title_error">错误</string>
+    <string name="s_dialog_title_nothing_here">此处空白</string>
+    <string name="s_dialog_msg_to_be_implement">即将推出</string>
+    <string name="s_dialog_title_warning">警告</string>
+    <string name="s_dialog_msg_not_logged_in">您未登入。请注册为新用户或登入。</string>
+    <string name="s_dialog_msg_kicked_out">有人登入了您的账号。请重新登入。</string>
+    <string name="s_dialog_add_food_success">已成功添加食物。</string>
+    <string name="s_dialog_msg_sccesspasswordchange">密码已更换。请用新密码登入。</string>
+    <string name="s_dialog_msg_please_fill_all">请填写全部格子。</string>
+    <string name="s_dialog_label_activation_check_junk_mail">*激活码已发送到您的邮箱: $address$ \n请检测您的垃圾邮箱(Junk Mail / Spam Mail)。</string>
+    <string name="s_dialog_msg_mapconnectionfail">Google Map 失去连接。</string>
+    <string name="s_dialog_msg_sccesssignup">$username$ 已成功注册。请检测您的邮箱。包括垃圾邮箱(Spam / Junk)。</string>
+    <string name="s_dialog_msg_location_not_granted">位置不允许。请在设置中打开。退出 Google Map&#8230;</string>
+    <string name="s_dialog_title_accountactivation">账号激活</string>
+    <string name="s_dialog_msg_failedconnect">连接失败</string>
+    <string name="s_dialog_msg_connection_not_found">连接未寻获</string>
+    <string name="s_dialog_msg_yoursellerlocationempty">您目前的位置未输入。请先定义您的目前位置。</string>
+    <string name="s_dialog_msg_newupdateavailable">新版本的 FoodTrad 已推出。请前往\nfoodlocator.com.my 下载。</string>
+    <string name="s_dialog_msg_plsfillall">请填写全部格子</string>
+    <string name="s_dialog_msg_selectanimage">您必须选择一张图片才能储存</string>
+    <!--<string name="s_dialog_msg_plsfillall">You must select an image before you save / confirm.</string>-->
+    <!--<string name="s_dialog_msg_plsfillall">You must select an image before you save / confirm.</string>-->
+    <!--<string name="s_dialog_msg_plsfillall">You must select an image before you save / confirm.</string>-->
+    <!--<string name="s_dialog_msg_plsfillall">You must select an image before you save / confirm.</string>-->
+    <!--<string name="s_dialog_msg_plsfillall">You must select an image before you save / confirm.</string>-->
+
+    <!--Progress Dialog MSG-->
+    <string name="s_prgdialog_sending_msg">发送中&#8230;</string>
+    <string name="s_prgdialog_retrieving_all_token">索取所有用户中&#8230;</string>
+    <string name="s_prgdialog_submitting_signup_form">正在提交表格&#8230;</string>
+    <string name="s_prgdialog_update_token">正更新推送通知服务&#8230;</string>
+    <string name="s_prgdialog_log_in_authenticate">认证中&#8230;</string>
+    <string name="s_prgdialog_uploading">上传中&#8230;</string>
+    <string name="s_prgdialog_submitting_food">正提交新食物&#8230;</string>
+    <string name="s_prgdialog_loading_all_food">载入全部食物中&#8230;</string>
+    <string name="s_prgdialog_check_log_in_status">检查登入状况&#8230;</string>
+    <string name="s_prgdialog_submitting_password">提交密码更换&#8230;</string>
+    <string name="s_prgdialog_log_out">正在登出&#8230;</string>
+    <string name="s_prgdialog_getting_location">正在索取用户位置&#8230;</string>
+    <string name="s_prgdialog_checking_version">检查版本&#8230;</string>
+    <string name="s_prgdialog_msg_gettingalluserstoken">索取所有用户&#8230;</string>
+    <string name="s_prgdialog_searching">正在搜索您的食物&#8230;</string>
+    <!--<string name="s_prgdialog_submitting_password">Submitting password change&#8230;</string>-->
+    <!--<string name="s_prgdialog_submitting_password">Submitting password change&#8230;</string>-->
+
+
+
+    <!--Progress Dialog TITLE-->
+    <string name="s_prgdialog_title_noti_service">通知服务</string>
+    <string name="s_prgdialog_title_upload">上传</string>
+    <string name="s_prgdialog_title_submit_food">提交食物</string>
+    <string name="s_prgdialog_title_send_msg">发送信息</string>
+    <string name="s_prgdialog_title_load_user">载入用户</string>
+    <string name="s_prgdialog_title_sign_up">注册</string>
+    <string name="s_prgdialog_title_log_in">登入</string>
+    <string name="s_prgdialog_title_loading">载入</string>
+    <string name="s_prgdialog_title_submit_password">提交密码</string>
+    <string name="s_prgdialog_title_log_out">登出</string>
+    <string name="s_prgdialog_title_location">位置</string>
+    <string name="s_prgdialog_title_update">更新</string>
+    <string name="s_prgdialog_title_retrieve">提取</string>
+    <string name="s_prgdialog_title_search">搜索</string>
+    <!--<string name="s_prgdialog_"></string>-->
+    <!--<string name="s_prgdialog_"></string>-->
+
+    <!--Notification-->
+    <string name="s_notif_msg_token_log_in_update">通知服务已更新。您已登入为&#160;</string>
+    <string name="s_notif_msg_token_unavailable">通知服务无法在此设备上运行</string>
+    <!-- NEW -->
+    <string name="s_notif_msg_been_logged_out">您已被登出。</string>
+    <string name="s_notif_msg_token_updated">通知服务已更新。</string>
+
+    <!--MENU ITEM TITLE-->
+    <string name="s_menu_add_food">添加食物</string>
+    <string name="s_menu_setting">设置 Settings</string>
+    <string name="s_menu_username">用户名:&#160;</string>
+    <string name="s_menu_log_out">登出</string>
+    <string name="s_menu_search_food">搜索</string>
+    <!--<string name="s_menu_log_out">Log out</string>-->
+    <!--<string name="s_menu_log_out">Log out</string>-->
+
+    <!--****************************************************************-->
+
+    <string name="s_changelanguage">更换语言</string>
+    <string name="s_english">英文(English)</string>
+    <string name="s_chinese">中文</string>
+    <string name="s_system">使用系统语言 Using system language</string>
+    <string name="s_button_foodetail_getdirection">导航/帮我带路</string>
+    <string name="s_dialog_msg_menuisempty">您的菜单空白。请添加新食物。</string>
+
+
+
+    <string name="s_dialog_title_delete">删除</string>
+    <string name="s_dialog_msg_confirmdelete">您确定要删除此食物？</string>
+    <string name="s_prgdialog_deleting_food">正在删除中&#8230;</string>
+    <string name="s_deletethisfood">删除</string>
+    <string name="s_button_startbroadcastmessage">发送群发信息</string>
+    <string name="s_button_sendingbroadcast">正发送中&#8230;</string>
+    <string name="s_button_viewfoodsishared">查看我分享过的食物</string>
+
+
+    <!--************************************************************-->
+
+    <string name="s_button_removemylocation">移除我的位置记录</string>
+    <string name="s_deletelocationsuccess">位置记录已移除</string>
+    <string name="s_dialog_msg_yourlocationnotreceivedfrommap">地图位置获取失败</string>
+    <string name="s_radiobutton_main_quicksavelocation">快速模式：快速储存位置（位置可能不准确）</string>
+    <string name="s_radiobutton_main_chooselocationinmap">准确模式：在地图上标记位置</string>
+</resources>
