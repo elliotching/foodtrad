@@ -2,7 +2,7 @@ List of SharedPreference:
 1."FCM"
 1.1."notification_number"
 1.2.
-
+sdg
 
 2. "FoodieRoute"
 2.1."FR_deviceUUID" - "empty"
